@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+    background-color: rgba(19, 16, 16, 0.699);
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: center;
+}
+h1{
+    width: 100%;
+    position: relative;
+    margin: 0%;
+    background-color: aliceblue;
+}
+.parti{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 70%;
+}
+.parti div{
+    margin: 4% 4% 0% 4%;
+    position: relative;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+}
+textarea{
+    padding: 4%;
+    width: 100%;
+    color: rgb(7, 7, 7);
+    border-radius: 15px;
+    background-color: rgb(221, 84, 84);
+    border: none;
+    height: 60%;
+    resize: none;
+    box-shadow: 1px 1px 30px rgba(252, 251, 251, 0.466);
+    color: #fff;
+}
+textarea::placeholder{
+    color: rgb(253, 253, 253);
+}
+select{
+    border: none;
+    background-color: rgb(243, 243, 243);
+    width: 60%;
+    border-radius: 15px;
+    padding: 1%;
+    color: rgb(7, 7, 7);
+    margin: 2%;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    width: 30%;
+    border-radius: 15px;
+    padding: 1% 2%;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+
+}
+img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 49%;
+    top: 15%;
+    cursor: pointer;
+}
